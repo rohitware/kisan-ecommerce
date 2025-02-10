@@ -3,4 +3,42 @@
  font-family: "Poppins", serif;
  font-family: "Roboto", serif;
 */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", serif;
+}
+/* Navbar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0E2A4C;
+  padding: 10px 20px;
+  color: #fff;
+}
+/* Logo styling */
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+/* Navigation items container */
+.nav-items {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+/* Individual nav item */
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+.nav-item:hover {
+  color: #ddd;
+}
